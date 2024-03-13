@@ -1,25 +1,5 @@
-# TypeScript
+# 🧞‍♂️ TypeScript - OOP Exercise
 
-## What is TS?
+## Why do we need to learn TS?
 
-Let's install the TypeScript compiler to transpile it into JavaScript for the browser to read.
-
-- Console log shortcut `log` + `tab`
-- Verify it runs on the terminal with the command `node main.ts`
-- HTML template `!` + `tab`
-- Install the compiler with the command `tsc main.ts`
-
-For simple TypeScript exercises:
-
-- `npm install -g ts-node`
-- with `ts-node main.ts`, you can eliminate the JavaScript file and immediately check the result.
-
-To update the JavaScript file every time:
-
-- Using watch mode with `tsc main.ts -w`, you can check it immediately.
-
-## Mastering Basic Types
-
-## What are Types?
-
--
+![the-importance-of-ts](https://private-user-images.githubusercontent.com/86542114/312558499-122616a2-96da-40d6-834f-ebdfe7bbadc9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTAzNTA2MDMsIm5iZiI6MTcxMDM1MDMwMywicGF0aCI6Ii84NjU0MjExNC8zMTI1NTg0OTktMTIyNjE2YTItOTZkYS00MGQ2LTgzNGYtZWJkZmU3YmJhZGM5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzEzVDE3MTgyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1OTM4Y2MwMTdmMTA1NzJmZTE2NmI4NGI1OWE1NDcwOTQxYjU4ZDNlZTg3NDZiNDg5MWYyMTg4YzJlNDU1YzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.UTWZXUkEGa8TETJXtf1g8Mq2SXsQzGgeVgqWydZ2WVk)
