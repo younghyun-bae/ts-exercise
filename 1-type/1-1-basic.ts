@@ -17,7 +17,7 @@
   let age: number | undefined;
   age = undefined;
   age = 1;
-  // 무언가가 있고 없는지 값 할당할 때 씀
+  // When assigning a value depending on whether something exists or not
   function find(): number | undefined {
     return 2;
   }
@@ -37,14 +37,14 @@
   let anything: any = 0; //Never
   anything = 'hello';
 
-  // void 아무것도 리턴하지 않을 때, 생략가능
+  // void - when returning nothing, and optionally omitted
   function print(): void {
     console.log('hello');
     return;
   }
   let unusable: void = undefined; //Never
 
-  // never 에러코드 짤 때
+  // never - when coding for error
   function throwError(message: string): never {
     //message -> server (log)
     throw new Error(message);
@@ -53,7 +53,7 @@
     // }
   }
 
-  // object 아무거나 다 할당 가능
+  // object - anything is assignable
   let obj: object; //Never
   function acceptSomeObject(obj: object) {
 
