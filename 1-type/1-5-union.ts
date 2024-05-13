@@ -19,7 +19,8 @@
     reason: string;
   };
   type LoginState = SuccessState | FailState;
-  function login(id:string, password: string): Promise<LoginState> {
+  // function login( id: string, password: string ): Promise<LoginState> {}
+  function login(): LoginState {
     return {
       response: {
         body: 'logged in!',
@@ -38,4 +39,5 @@
       
     }
   }
+  //void can be omitted, if there is no returned value
 }
